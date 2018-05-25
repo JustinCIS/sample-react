@@ -6,7 +6,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-                <img src={require("./logo.png")} className="App-logo" alt="logo" />
+                <img src={"https://justincis.github.io/sample-react/static/media/logo.3fb01b76.png"} className="App-logo" alt="logo" />
                 <h1 className="App-title">
                     Welcome to My React Portfolio <br />
                     (More to come...)
