@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from './logo.png';
 import './App.css';
 
 class App extends Component {
@@ -15,7 +15,7 @@ class App extends Component {
         </header>
         <br/>
         <div align="center">
-            <img class="logo-size" src="https://justincis.github.io/sampleNg/CLI-App/assets/images/jo-logo-icon.png" align="middle" />
+            <img className="logo-size" src="https://justincis.github.io/sampleNg/CLI-App/assets/images/jo-logo-icon.png" align="middle" />
         </div>
       </div>
     );
