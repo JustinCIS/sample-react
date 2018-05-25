@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.png';
 import './App.css';
 
 class App extends Component {
@@ -7,7 +6,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+                <img src={require("./logo.png")} className="App-logo" alt="logo" />
                 <h1 className="App-title">
                     Welcome to My React Portfolio <br />
                     (More to come...)
