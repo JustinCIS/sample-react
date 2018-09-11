@@ -9,6 +9,9 @@
 # production
 /build
 
+# Visual Studio 2015 cache/options directory
+/.vs
+
 # misc
 .DS_Store
 .env.local

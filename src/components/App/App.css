@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Starjout';
+    src: local('Starjout'), url(../../assets/Starjout.ttf) format('truetype');
+}
+
+.App {
+    background: url(../../assets/starwars-background.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+
+.content {
+    padding: 30px;
+}
+
+.mainheading {
+    font-family: 'Starjout';
+    font-size: 60px;
+    color: #ffff00;
+    display: inline-block;
+    line-height: 50px;
+}
+
+.heading {
+    font-family: 'Starjout';
+    font-size: 32px;
+    color: #258837;
+    display: inline-block;
+    line-height: 50px;
+}
+
+.subheading {
+    font-family: 'Starjout';
+    font-size: 24px;
+    color: #ffffff;
+    display: inline-block;
+    line-height: 30px;
+}
